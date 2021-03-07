@@ -1,0 +1,2026 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2021-03-07T18:05:41.315+09:00
+  initializedAtString: 2021-03-07T18:05:41.315+09:00
+  log:
+  - commitID: 5c5c57d1d0661284cbdaab026ce2ee72c53503d9
+    mergeA: 
+    mergeB: 
+    authorName: mookofski
+    authorEmail: 76699383+mookofski@users.noreply.github.com
+    commitEmail: 76699383+mookofski@users.noreply.github.com
+    commitName: mookofski
+    summary: kjzsrtrstyfj
+    description: 
+    timeString: 2021-03-07T18:03:46.000+09:00
+    commitTimeString: 2021-03-07T18:03:46.000+09:00
+    changes:
+    - path: Assets\New Folder.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\New Folder.meta
+      projectPath: Assets\New Folder.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\RT.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\RT.meta
+      projectPath: Assets\RT.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\RT\RTMAIN.compute.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\RT\RTMAIN.compute.meta
+      projectPath: Assets\RT\RTMAIN.compute.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: deb5ff85fd447517c677f50ed800ddabb83a416e
+    mergeA: 
+    mergeB: 
+    authorName: mookofski
+    authorEmail: 76699383+mookofski@users.noreply.github.com
+    commitEmail: 76699383+mookofski@users.noreply.github.com
+    commitName: mookofski
+    summary: gfhfdgsdfrhdrfh
+    description: 
+    timeString: 2021-03-07T18:03:38.000+09:00
+    commitTimeString: 2021-03-07T18:03:38.000+09:00
+    changes:
+    - path: .vs\New Unity Project (1)\v16\.suo
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\.vs\New Unity Project (1)\v16\.suo
+      projectPath: .vs\New Unity Project (1)\v16\.suo
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs\New Unity Project (1)\v16\Browse.VC.db
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\.vs\New Unity Project (1)\v16\Browse.VC.db
+      projectPath: .vs\New Unity Project (1)\v16\Browse.VC.db
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 522e4cbc1e28ad7c947d3fba4269aea9d44ae7e1
+    mergeA: 
+    mergeB: 
+    authorName: mookofski
+    authorEmail: 76699383+mookofski@users.noreply.github.com
+    commitEmail: 76699383+mookofski@users.noreply.github.com
+    commitName: mookofski
+    summary: Revert "Initial commit"
+    description: This reverts commit c7d6d9a4e62353701a17966de1ab8b842c8eaeed.
+    timeString: 2021-03-07T17:39:27.000+09:00
+    commitTimeString: 2021-03-07T17:39:27.000+09:00
+    changes:
+    - path: .gitattributes
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\.gitignore
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: 468877cdcef9642213355bf45b939acc5e21729f
+    mergeA: 
+    mergeB: 
+    authorName: mookofski
+    authorEmail: 76699383+mookofski@users.noreply.github.com
+    commitEmail: 76699383+mookofski@users.noreply.github.com
+    commitName: mookofski
+    summary: Revert "a"
+    description: This reverts commit da298bb2ccc01828f5487c5357764954db49cf4e.
+    timeString: 2021-03-07T17:33:57.000+09:00
+    commitTimeString: 2021-03-07T17:33:57.000+09:00
+    changes:
+    - path: .vscode\settings.json
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\.vscode\settings.json
+      projectPath: .vscode\settings.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Black 1.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Black 1.mat
+      projectPath: Assets\Black 1.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Black 1.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Black 1.mat.meta
+      projectPath: Assets\Black 1.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Black 2.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Black 2.mat
+      projectPath: Assets\Black 2.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Black 2.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Black 2.mat.meta
+      projectPath: Assets\Black 2.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Black.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Black.mat
+      projectPath: Assets\Black.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Black.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Black.mat.meta
+      projectPath: Assets\Black.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Materials.meta
+      projectPath: Assets\Materials.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials\RasterImaage.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Materials\RasterImaage.mat
+      projectPath: Assets\Materials\RasterImaage.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials\RasterImaage.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Materials\RasterImaage.mat.meta
+      projectPath: Assets\Materials\RasterImaage.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Model.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Model.meta
+      projectPath: Assets\Model.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Model\SHIP.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Model\SHIP.mat
+      projectPath: Assets\Model\SHIP.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Model\SHIP.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Model\SHIP.mat.meta
+      projectPath: Assets\Model\SHIP.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\New Folder.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\New Folder.meta
+      projectPath: Assets\New Folder.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete.meta
+      projectPath: Assets\Obsolete.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\Image.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\Image.mat
+      projectPath: Assets\Obsolete\Image.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\Image.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\Image.mat.meta
+      projectPath: Assets\Obsolete\Image.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\New Material 1.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\New Material
+        1.mat
+      projectPath: Assets\Obsolete\New Material 1.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\New Material 1.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\New Material
+        1.mat.meta
+      projectPath: Assets\Obsolete\New Material 1.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\New Material.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\New Material.mat
+      projectPath: Assets\Obsolete\New Material.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\New Material.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\New Material.mat.meta
+      projectPath: Assets\Obsolete\New Material.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\RT.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\RT.meta
+      projectPath: Assets\RT.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\RT\RTMAIN.compute.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\RT\RTMAIN.compute.meta
+      projectPath: Assets\RT\RTMAIN.compute.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scenes.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: e337e51d334524c91321c7efba0463fb0fe80d86
+    mergeA: 
+    mergeB: 
+    authorName: mookofski
+    authorEmail: 76699383+mookofski@users.noreply.github.com
+    commitEmail: 76699383+mookofski@users.noreply.github.com
+    commitName: mookofski
+    summary: aaaaa
+    description: 
+    timeString: 2021-03-07T17:33:43.000+09:00
+    commitTimeString: 2021-03-07T17:33:43.000+09:00
+    changes:
+    - path: Assets\.gitignore
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Black_S.shader
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Black_S.shader
+      projectPath: Assets\Black_S.shader
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Model\SHIP.fbx
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Model\SHIP.fbx
+      projectPath: Assets\Model\SHIP.fbx
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Model\aaa.fbx
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Model\aaa.fbx
+      projectPath: Assets\Model\aaa.fbx
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\New Folder\138_cloudy sky with rural background.jpg
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\New Folder\138_cloudy
+        sky with rural background.jpg
+      projectPath: Assets\New Folder\138_cloudy sky with rural background.jpg
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\ObjectType.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\ObjectType.cs
+      projectPath: Assets\ObjectType.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\AddShader 1.shader
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\AddShader 1.shader
+      projectPath: Assets\Obsolete\AddShader 1.shader
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\AddShader.shader
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\AddShader.shader
+      projectPath: Assets\Obsolete\AddShader.shader
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\NORMAL.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\NORMAL.cs
+      projectPath: Assets\Obsolete\NORMAL.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\New Render Texture.renderTexture
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\New Render
+        Texture.renderTexture
+      projectPath: Assets\Obsolete\New Render Texture.renderTexture
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\NewBehaviourScript.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\NewBehaviourScript.cs
+      projectPath: Assets\Obsolete\NewBehaviourScript.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\NewUnlitShader 1.shader
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\NewUnlitShader
+        1.shader
+      projectPath: Assets\Obsolete\NewUnlitShader 1.shader
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\NewUnlitShader.shader
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\NewUnlitShader.shader
+      projectPath: Assets\Obsolete\NewUnlitShader.shader
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\ObjectHundler.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\ObjectHundler.cs
+      projectPath: Assets\Obsolete\ObjectHundler.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\RasterImaage.renderTexture
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\RasterImaage.renderTexture
+      projectPath: Assets\Obsolete\RasterImaage.renderTexture
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\RayTracingMaster.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\RayTracingMaster.cs
+      projectPath: Assets\Obsolete\RayTracingMaster.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\RayTracingShader.compute
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\RayTracingShader.compute
+      projectPath: Assets\Obsolete\RayTracingShader.compute
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\SC_PC_CONTROL.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\SC_PC_CONTROL.cs
+      projectPath: Assets\Obsolete\SC_PC_CONTROL.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Obsolete\Textu.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\Textu.cs
+      projectPath: Assets\Obsolete\Textu.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\RT\MeshDataSub.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\RT\MeshDataSub.cs
+      projectPath: Assets\RT\MeshDataSub.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\RT\RSMAIN.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\RT\RSMAIN.cs
+      projectPath: Assets\RT\RSMAIN.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\RT\aaaa.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\RT\aaaa.cs
+      projectPath: Assets\RT\aaaa.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\camfly.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\camfly.cs
+      projectPath: Assets\camfly.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: New Text Document (3).txt
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\New Text Document (3).txt
+      projectPath: New Text Document (3).txt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\XRSettings.asset
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: da298bb2ccc01828f5487c5357764954db49cf4e
+    mergeA: 
+    mergeB: 
+    authorName: mookofski
+    authorEmail: 76699383+mookofski@users.noreply.github.com
+    commitEmail: 76699383+mookofski@users.noreply.github.com
+    commitName: mookofski
+    summary: a
+    description: 
+    timeString: 2021-03-07T17:32:37.000+09:00
+    commitTimeString: 2021-03-07T17:32:37.000+09:00
+    changes:
+    - path: .vscode\settings.json
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\.vscode\settings.json
+      projectPath: .vscode\settings.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Black 1.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Black 1.mat
+      projectPath: Assets\Black 1.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Black 1.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Black 1.mat.meta
+      projectPath: Assets\Black 1.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Black 2.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Black 2.mat
+      projectPath: Assets\Black 2.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Black 2.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Black 2.mat.meta
+      projectPath: Assets\Black 2.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Black.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Black.mat
+      projectPath: Assets\Black.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Black.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Black.mat.meta
+      projectPath: Assets\Black.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Materials.meta
+      projectPath: Assets\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\RasterImaage.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Materials\RasterImaage.mat
+      projectPath: Assets\Materials\RasterImaage.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\RasterImaage.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Materials\RasterImaage.mat.meta
+      projectPath: Assets\Materials\RasterImaage.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Model.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Model.meta
+      projectPath: Assets\Model.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Model\SHIP.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Model\SHIP.mat
+      projectPath: Assets\Model\SHIP.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Model\SHIP.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Model\SHIP.mat.meta
+      projectPath: Assets\Model\SHIP.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\New Folder.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\New Folder.meta
+      projectPath: Assets\New Folder.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete.meta
+      projectPath: Assets\Obsolete.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\Image.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\Image.mat
+      projectPath: Assets\Obsolete\Image.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\Image.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\Image.mat.meta
+      projectPath: Assets\Obsolete\Image.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\New Material 1.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\New Material
+        1.mat
+      projectPath: Assets\Obsolete\New Material 1.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\New Material 1.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\New Material
+        1.mat.meta
+      projectPath: Assets\Obsolete\New Material 1.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\New Material.mat
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\New Material.mat
+      projectPath: Assets\Obsolete\New Material.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\New Material.mat.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\New Material.mat.meta
+      projectPath: Assets\Obsolete\New Material.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\RT.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\RT.meta
+      projectPath: Assets\RT.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\RT\RTMAIN.compute.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\RT\RTMAIN.compute.meta
+      projectPath: Assets\RT\RTMAIN.compute.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes.meta
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 0857eaca97c2a6144ae694d65ac836b2128d490c
+    mergeA: 
+    mergeB: 
+    authorName: mookofski
+    authorEmail: 76699383+mookofski@users.noreply.github.com
+    commitEmail: 76699383+mookofski@users.noreply.github.com
+    commitName: mookofski
+    summary: te
+    description: 
+    timeString: 2021-03-07T17:31:46.000+09:00
+    commitTimeString: 2021-03-07T17:31:46.000+09:00
+    changes:
+    - path: Assets\RT\RTMAIN.compute
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\RT\RTMAIN.compute
+      projectPath: Assets\RT\RTMAIN.compute
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: bdcd66eefc911d86d3e2570a06a3534a51305962
+    mergeA: 
+    mergeB: 
+    authorName: mookofski
+    authorEmail: 76699383+mookofski@users.noreply.github.com
+    commitEmail: 76699383+mookofski@users.noreply.github.com
+    commitName: mookofski
+    summary: aa
+    description: 
+    timeString: 2021-03-07T17:31:15.000+09:00
+    commitTimeString: 2021-03-07T17:31:15.000+09:00
+    changes:
+    - path: .vscode\settings.json
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\.vscode\settings.json
+      projectPath: .vscode\settings.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\.gitignore
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Black_S.shader
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Black_S.shader
+      projectPath: Assets\Black_S.shader
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Model\SHIP.fbx
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Model\SHIP.fbx
+      projectPath: Assets\Model\SHIP.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Model\aaa.fbx
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Model\aaa.fbx
+      projectPath: Assets\Model\aaa.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\New Folder\138_cloudy sky with rural background.jpg
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\New Folder\138_cloudy
+        sky with rural background.jpg
+      projectPath: Assets\New Folder\138_cloudy sky with rural background.jpg
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\ObjectType.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\ObjectType.cs
+      projectPath: Assets\ObjectType.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\AddShader 1.shader
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\AddShader 1.shader
+      projectPath: Assets\Obsolete\AddShader 1.shader
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\AddShader.shader
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\AddShader.shader
+      projectPath: Assets\Obsolete\AddShader.shader
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\NORMAL.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\NORMAL.cs
+      projectPath: Assets\Obsolete\NORMAL.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\New Render Texture.renderTexture
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\New Render
+        Texture.renderTexture
+      projectPath: Assets\Obsolete\New Render Texture.renderTexture
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\NewBehaviourScript.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\NewBehaviourScript.cs
+      projectPath: Assets\Obsolete\NewBehaviourScript.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\NewUnlitShader 1.shader
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\NewUnlitShader
+        1.shader
+      projectPath: Assets\Obsolete\NewUnlitShader 1.shader
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\NewUnlitShader.shader
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\NewUnlitShader.shader
+      projectPath: Assets\Obsolete\NewUnlitShader.shader
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\ObjectHundler.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\ObjectHundler.cs
+      projectPath: Assets\Obsolete\ObjectHundler.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\RasterImaage.renderTexture
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\RasterImaage.renderTexture
+      projectPath: Assets\Obsolete\RasterImaage.renderTexture
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\RayTracingMaster.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\RayTracingMaster.cs
+      projectPath: Assets\Obsolete\RayTracingMaster.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\RayTracingShader.compute
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\RayTracingShader.compute
+      projectPath: Assets\Obsolete\RayTracingShader.compute
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\SC_PC_CONTROL.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\SC_PC_CONTROL.cs
+      projectPath: Assets\Obsolete\SC_PC_CONTROL.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Obsolete\Textu.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Obsolete\Textu.cs
+      projectPath: Assets\Obsolete\Textu.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\RT\MeshDataSub.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\RT\MeshDataSub.cs
+      projectPath: Assets\RT\MeshDataSub.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\RT\RSMAIN.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\RT\RSMAIN.cs
+      projectPath: Assets\RT\RSMAIN.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\RT\RTMAIN.compute
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\RT\RTMAIN.compute
+      projectPath: Assets\RT\RTMAIN.compute
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\RT\aaaa.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\RT\aaaa.cs
+      projectPath: Assets\RT\aaaa.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\camfly.cs
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\camfly.cs
+      projectPath: Assets\camfly.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: New Text Document (3).txt
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\New Text Document (3).txt
+      projectPath: New Text Document (3).txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\ProjectSettings\XRSettings.asset
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: c7d6d9a4e62353701a17966de1ab8b842c8eaeed
+    mergeA: 
+    mergeB: 
+    authorName: mookofski
+    authorEmail: 76699383+mookofski@users.noreply.github.com
+    commitEmail: 76699383+mookofski@users.noreply.github.com
+    commitName: mookofski
+    summary: Initial commit
+    description: 
+    timeString: 2021-03-07T17:18:03.000+09:00
+    commitTimeString: 2021-03-07T17:18:03.000+09:00
+    changes:
+    - path: .gitattributes
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\.gitignore
+      fullPath: F:\Unity\PJ\aaa\New Unity Project (1)\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
