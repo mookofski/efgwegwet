@@ -1,0 +1,473 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWTexture2D<float4> Result;
+#define f4(x) float4(x,x,x,x)
+#define f3(x) float3(x,x,x)
+#define f3to4(a) float4(a.x,a.y,a.z,1.0f)
+
+#define f(x) float3(x.x,x.y,x.z)
+
+#define v2r(v) float3(asin(-v.y),atan2(v.x,v.z),0)
+
+const static float MaxDist=100000000;
+
+
+float4x4 _C2WMX;
+float4x4 _IPJMX;
+int _TriCount;
+float4 _VertexBuffer[500];
+
+//* XYZ=Index, W, Object ID*2 = Object offset start, ID*2+1= Object vertex Count 
+float4 _VertexIndice[500];
+
+
+float4 _Inst_Translate[10];
+float4x4 _Inst_ScaleRot[10];
+float4 _Inst_ColandIndex[10];
+float4 _Type_Rindex[10];
+int _InstanceCount;
+/*
+        CPShader.SetInt("MeshCount",meshcount);
+        CPShader.SetVectorArray("_VertexBuf",VertexBuf.ToArray());
+        CPShader.SetInts("_VtxStride",VertexStride.ToArray());
+        CPShader.SetInts("_ObjStride",ObjStride.ToArray());
+*/
+
+
+
+
+#define pj(v) mul(_IPJMX,v)
+
+///////////////STRUCTURE/INITIALIZER/////////////////
+
+struct collision// generated per ray
+{
+
+    float3 Pos;
+    float dist_uq;
+    float3 SurNorm;
+    //RGB + REFRACTION NIDEX FOR A
+    float4 color;
+     int type;
+     
+
+};
+
+collision InitCol()
+{
+
+    collision b;
+    b.Pos=f3(.0);
+    b.dist_uq=MaxDist;
+    b.SurNorm=f3(.0);
+    b.color=f4(.0);
+    b.type=0;
+    return b;
+}
+
+struct Ray
+{
+    float3 orig;
+    float3 dir;
+    float4 color;
+    float rindex;
+    bool refracted;
+};
+
+Ray MakeRay(float3 og,float3 d,float4 c)
+{
+Ray ray;
+ray.orig=og;
+ray.dir=d;
+ray.color=c;
+ray.rindex=1.0f;
+return ray;    
+
+}
+
+
+Ray CreateCameraRay(float2 uv)
+{
+Ray ray;
+//copy Camera coords using A value
+ray.orig=mul(_C2WMX,float4(0,0,1,1)).xyz;
+
+ray.dir=mul(_IPJMX,float4(uv,0,1)).xyz;
+ray.dir=normalize(mul(_C2WMX,float4(ray.dir,0)).xyz);
+
+return ray;
+}
+
+
+struct tri
+{
+    float3 v[3];
+    float3 c;
+};
+
+float trisize(float3 t0,float3 t1,float3 t2)
+{
+
+ return  abs((t0.r*(t1.g-t2.g))+
+    (t1.r*(t2.g-t0.g))+
+    (t2.r*(t0.g-t1.g)));
+}
+
+float3 TriLerp(float3 t1,float3 t2,float3 t3,float3 v)
+{
+    float3 v_p[4];
+
+    v_p[0]=mul(_IPJMX,f3to4(t1)).xyz;
+    v_p[1]=mul(_IPJMX,f3to4(t2)).xyz;
+    v_p[2]=mul(_IPJMX,f3to4(t3)).xyz;
+    v_p[3]=mul(_IPJMX,f3to4(v)).xyz;
+
+    float d= 1/trisize(v_p[0],v_p[1],v_p[2]);
+
+    float3 res;
+    res.x=trisize(v_p[3],v_p[1],v_p[2])*d;
+    res.y=trisize(v_p[0],v_p[3],v_p[2])*d;
+    res.z=trisize(v_p[0],v_p[1],v_p[3])*d;
+   
+    return res;
+
+}
+
+
+
+
+void HitTri(Ray r,inout collision col,tri T,float4 color, int type);
+void HitSphere(Ray r,float3 co,float sc,float pull,inout collision col);
+void colcheck(inout collision col,float3 hitv,float npos,float3 norm,float4 color);
+float3 refr(Ray r,float3 sur,float N);
+
+
+[numthreads(16,16,2)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    // TODO: insert actual code here!
+    //resolution
+    float2 resolution;
+    Result.GetDimensions(resolution.x,resolution.y);
+//    float2 uv=(resolution/2)
+ //ID = Pixel coords
+    float2 uv=(id.xy/resolution)*2-1;
+
+
+
+collision col;
+    Ray ray;
+    ray.orig=mul(_C2WMX,float4(0,0,0,1)).xyz;
+    ray.dir=mul(_IPJMX,float4(uv,0,1)).xyz;
+    ray.dir=normalize(mul(_C2WMX,float4(ray.dir,0)).xyz);
+    ray.color=float4(0,0,0,0);
+    ray.rindex=1;
+    ray.refracted=false;
+
+   col.Pos=ray.orig;
+    col.dist_uq=MaxDist;   
+    col.color=float4(ray.dir.xyz,1);
+
+    col.SurNorm=(float3(0,0,0));
+    col.type=0;
+tri T;
+
+for(int i=0;i<3;i++)
+{
+ray.orig=col.Pos;
+ray.orig+=(ray.dir*1.3f);   
+col.dist_uq=MaxDist;
+
+//*_VertexIndice*//
+//* XYZ=Each represent Index of _VertexBuffer
+//* W, Object ID*2 = Object offset start, ID*2+1= Object vertex Count 
+
+//*_Inst_ColandIndex xyz= rgb, w=model id
+
+//*loop through each instances
+for(int instance=0;instance<_InstanceCount;instance++)
+{
+
+float buffer=col.dist_uq;
+
+    //*per each triangles
+    for(
+        int tr=
+        _VertexIndice[_Inst_ColandIndex[instance].w*3].w;//*Beginning Offset of Model
+ 
+        tr < 
+        _VertexIndice[ _Inst_ColandIndex[instance].w*3   ].w+
+        _VertexIndice[(_Inst_ColandIndex[instance].w*3)+1].w//*Triangle Count 
+
+        ;tr++)
+        {
+/*
+    T.v[0]=
+    //*mul(_Inst_ScaleRot[instance], Scale and Rotation Matrix
+    //*_VertexBuffer[(int)_VertexIndice[tr].x]).xyz, Apply Rotation and Rot scale to the vert
+    //*+_Inst_Translate[instance].xyz;//Translate
+
+*/
+    float4x4 CurMX =_Inst_ScaleRot[instance];
+    float3 CurTranslate=_Inst_Translate[instance].xyz;
+
+
+
+    //*Index value per model,
+    //* indices are stored in cocecutive integer vector array but each model's index starts from 0
+    //* causing it to access same vertex without this
+    int IndexOffset=_VertexIndice[_Inst_ColandIndex[instance].w*3+2].w;
+
+
+    T.v[0]=mul(CurMX,
+    (_VertexBuffer
+    [_VertexIndice[tr].x//*Raw Index Of Model
+    +IndexOffset
+    ]
+    )).xyz
+    +CurTranslate;//*Translation
+
+
+    T.v[1]=mul(CurMX,
+    (_VertexBuffer
+    [_VertexIndice[tr].y
+    +IndexOffset
+    ]
+    )).xyz
+    +CurTranslate; 
+
+
+        T.v[2]=mul(CurMX,
+    (_VertexBuffer
+    [_VertexIndice[tr].z
+    +IndexOffset
+        ]
+    )).xyz
+    +CurTranslate;
+
+
+    HitTri(ray,col,T,float4(_Inst_ColandIndex[instance].xyz,_Type_Rindex[instance].y),_Type_Rindex[instance].x);
+        if(col.dist_uq!=buffer)
+        {
+  
+            break;
+        }
+        }
+
+
+
+}
+
+
+
+
+    switch(col.type)
+    {
+    default:
+   i=32;
+   col.color=float4(ray.dir.xyz,0);
+    break;
+    
+        case 0://*Opaque
+        i=30;
+        break;
+
+
+case 1://*Refractiove
+/*
+float ref=1/col.color.a;
+if(ray.refracted)
+{
+    ref=col.color.a;
+}
+ray.dir=refract(ray.dir,col.SurNorm,ref);
+*/
+ray.dir=refr(ray,col.SurNorm,ray.rindex/col.color.a);
+break;
+ 
+ case 2://*Reflectiove
+ ray.dir=reflect(ray.dir,col.SurNorm);
+break;
+ 
+
+    }
+    col.SurNorm=(float3(0,0,0));
+    col.type=-1;
+}   
+        Result[id.xy] =float4(col.color.xyz,1);
+
+}
+
+
+
+//////////////COLISION FUNCTION////////////////////////
+
+
+
+
+
+
+void colcheck(inout collision col,Ray ray,float3 nvec,float3 norm,int coltype,float4 color)
+{
+    if(col.dist_uq>dot(nvec,nvec))
+    {
+        col.color=color;
+        col.dist_uq=dot(nvec,nvec);
+        col.Pos=ray.orig+nvec;
+        col.SurNorm=norm;
+        col.type=coltype;
+        
+    }
+}
+
+void HitTri(Ray r,inout collision col,tri T,float4 color,int type)
+{
+ 
+    float3 edge[2]={(T.v[2]-T.v[0]),(T.v[1]-T.v[0])};
+
+    float3 N;
+N=normalize(cross(edge[1],edge[0]));
+
+if(r.refracted&&type==1)
+{
+    N*=-1;
+}
+// N+=N*(-2*(r.refracted));
+        const float acc=  0.0000001;
+
+    if(dot(r.dir,(N))<0)
+      {
+   
+    float a,f,u,t;
+    float3 h,s,q;   
+
+
+    h=cross(r.dir,edge[1]);
+    a=dot(edge[0],h);
+
+    if(!(a<acc&&a>-acc))
+    {
+        f=1.0/a;
+        s=r.orig-T.v[0];
+        u=f*dot(s,h);
+        
+        if(u>0&&u<1.0f)
+        {
+    q=cross(s,edge[0]);
+    t=f*dot((r.dir),q);
+
+    if(t>0&&u+t<1)
+    {
+if(f*dot(edge[1],q)>acc){
+        float3 Colvec=((r.dir)*f*dot(edge[1],q)) ;
+
+        colcheck(col,r,Colvec,(N),type, color);
+            }
+    }
+        }
+    }
+}
+
+}
+
+
+
+
+
+void HitSphere(Ray r,float3 co,float sc,float pull,inout collision col)
+{
+    
+ if(dot(r.dir,co-r.orig)>0){
+
+
+    float3 d=r.orig-co;
+    float p1=-dot(r.dir,d);
+    float p2s=(pow(p1,2))-dot(-d,-d)+pow(sc,2);
+    
+    if(p2s>0)//there's collision
+    {
+   float   p2=sqrt(p2s);
+        float a1;/*
+        if(!r.bent)
+        {
+           a1= p1 - p2 >.0 ? p1 - p2 : p1 + p2;
+            r.bent=true;
+            }
+        else
+        {
+        {a1=p1 - p2 >.0 ? p1 + p2 : p1 -p2;
+        r.bent=false;}            
+        }*/
+           a1= p1 - p2 >.0 ? p1 - p2 : p1 + p2;
+
+
+  //  colcheck(col,r.orig,(r.dir)*a1,normalize(((r.dir)*a1)-co),1,f4(1));
+          
+    
+    
+    
+    }
+ }
+
+}
+
+
+
+float3 refr(Ray ray,float3 sur,float N)
+{
+//source
+/*
+http://www.euclideanspace.com/maths/geometry/rotations/conversions/angleToEuler/index.htm
+*/
+    float2 r;
+    /*
+    if(ray.refracted)
+    {
+        N=1/N;
+    }
+    */
+//heading = y
+//bank=za
+    float theta=acos(dot(sur,-ray.dir));
+    float3 plane=cross(sur,-ray.dir);
+float s=sin(theta);
+float c=cos(theta);
+float t=1-c;
+
+
+//    r.z = asin(plane.x * plane.y * t + plane.z * s) ;
+
+    r.y=atan2(
+        plane.y * s- plane.x * plane.z * t ,
+         1 - (plane.y*plane.y+ plane.z*plane.z ) * t);
+
+    r.x= atan2(plane.x * s - plane.y * plane.z * t ,
+    1 - (plane.x*plane.x + plane.z*plane.z) * t);
+
+//    r=r*(ray.rindex/N);
+    r=r*N;
+    
+    float3 buf=sur;
+    float3 res=sur;
+
+	buf.x = res.x;
+	buf.y = (res.y * cos(r.x)) + (res.z * -sin(r.x));
+	buf.z = (res.y * sin(r.x)) + (res.z * cos(r.x));
+
+
+    res=buf;
+	buf.x = (res.x * cos(r.y)) + (res.z * sin(r.y));
+	buf.y = res.y;
+	buf.z = (res.x * -sin(r.y)) + (res.z * cos(r.y));
+
+buf*=-1;
+ 
+ray.rindex=N;
+
+ray.refracted=!ray.refracted;
+
+return  buf;
+}
