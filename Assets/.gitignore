@@ -1,7 +1,0 @@
-*.meta
-*.dll
-*.asset
-*.json
-/Plugins
-/ProjectSettings
-*.mat
