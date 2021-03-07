@@ -18,7 +18,7 @@ const static float MaxDist=100000000;
 float4x4 _C2WMX;
 float4x4 _IPJMX;
 int _TriCount;
-float4 _VertexBuffer[500];
+float4 _VertexBuffer[499];
 
 //* XYZ=Index, W, Object ID*2 = Object offset start, ID*2+1= Object vertex Count 
 float4 _VertexIndice[500];
